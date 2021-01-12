@@ -53,7 +53,7 @@
 </head>
 <body>
     <div id="data"></div>
-    <div id="ProgressLoader" class="loader" hidden></div>
+    <div id="ProgresLoader" class="loader" hidden></div>
     <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.min.css" />
     <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.components.min.css" />
     <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js"></script>
@@ -66,7 +66,7 @@
         
         // Initialize microsoft teams tab library
         microsoftTeams.initialize();
-        $('#ProgressLoader').hide();
+        $('#ProgresLoader').hide();
         var token = null;
 
         function uuidv4() {
@@ -90,7 +90,7 @@
 
         // getData function to perform auth flow and get user's Data
         var ShowBoard = function () {
-            $('#ProgressLoader').show();
+            $('#ProgresLoader').show();
             let upn = undefined;
             microsoftTeams.getContext(function (context) {
                 upn = context.upn;
@@ -271,7 +271,7 @@
 
                 xhr.send()
                 $('#ShowBoard').hide();
-                $('#ProgressLoader').hide();
+                $('#ProgresLoader').hide();
             }
         }
 
