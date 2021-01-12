@@ -3,12 +3,12 @@
   "manifestVersion": "1.2",
   "version": "1.0.0",
   "id": "9d13608f-e5b1-4c34-992f-3069dd18f299",
-  "packageName": "TeamsOOFTab.io.github.gscales",
+  "packageName": "TeamsAvailability.io.github.gscales",
   "developer": {
     "name": "gscales@msgdevelop.com",
-    "websiteUrl": "https://gscales.github.io/TeamsOOFTab/app/todo.html",
-    "privacyUrl": "https://gscales.github.io/TeamsOOFTab/app/todo.html",
-    "termsOfUseUrl": "https://gscales.github.io/TeamsOOFTab/app/todo.html"
+    "websiteUrl": "https://gscales.github.io/TeamsAvailability/app/todo.html",
+    "privacyUrl": "https://gscales.github.io/TeamsAvailability/app/todo.html",
+    "termsOfUseUrl": "https://gscales.github.io/TeamsAvailability/app/todo.html"
   },
   "name": {
     "short": "In Out Board Tab",
@@ -25,7 +25,7 @@
   "accentColor": "#333333",
   "configurableTabs": [
     {
-      "configurationUrl": "https://gscales.github.io/TeamsOOFTab/app/config.html",
+      "configurationUrl": "https://gscales.github.io/TeamsAvailability/app/config.html",
       "canUpdateConfiguration": true,
       "scopes": [ "team" ]
     }
