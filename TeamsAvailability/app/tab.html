@@ -91,7 +91,7 @@
             $('#ProgresLoader').show();
             let upn = undefined;
             microsoftTeams.getContext(function (context) {
-                upn = context.upn; alert(window.location.origin + "/TeamsAvailability/app/silent-end.html");
+                upn = context.upn;
                 Authuser(upn);
             });
         }
@@ -110,7 +110,7 @@
             } else {
                 config.extraQueryParameters = "scope=openid+profile";
             }
-
+            alert(window.location.origin + "/TeamsAvailability/app/silent-end.html");
             let authContext = new AuthenticationContext(config);
 
             // See if there's a cached user and it matches the expected user
@@ -121,7 +121,7 @@
                     authContext.clearCache();
                 }
             }
-
+            alert(window.location.origin + "/TeamsAvailability/app/silent-end.html");
             // Get the id token (which is the access token for resource = clientId)
             let token = authContext.getCachedToken(config.clientId);
             if (token) {
