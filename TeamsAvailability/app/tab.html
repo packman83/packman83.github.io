@@ -91,7 +91,7 @@
             $('#ProgresLoader').show();
             let upn = undefined;
             microsoftTeams.getContext(function (context) {
-                upn = context.upn;
+                upn = context.upn; alert(window.location.origin + "/TeamsAvailability/app/silent-end.html");
                 Authuser(upn);
             });
         }
