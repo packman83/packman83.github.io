@@ -110,7 +110,7 @@
             } else {
                 config.extraQueryParameters = "scope=openid+profile";
             }
-            alert(window.location.origin + "/TeamsAvailability/app/silent-end.html");
+
             let authContext = new AuthenticationContext(config);
 
             // See if there's a cached user and it matches the expected user
@@ -121,7 +121,7 @@
                     authContext.clearCache();
                 }
             }
-            alert(window.location.origin + "/TeamsAvailability/app/silent-end.html");
+
             // Get the id token (which is the access token for resource = clientId)
             let token = authContext.getCachedToken(config.clientId);
             if (token) {
@@ -131,10 +131,10 @@
                         $('#data').empty()
                         $('#data').append(html);
                     }
-                    else
+                    else alert(window.location.origin + "/TeamsAvailability/app/silent-end.html");
                         GetGroupMembers(idtoken);
                 });
-            } else {
+            } else {alert(window.location.origin + "/TeamsAvailability/app/silent-end.html2");
                 microsoftTeams.authentication.authenticate({
                     url: window.location.origin + "/TeamsAvailability/app/auth.html",
                     width: 400,
