@@ -25,7 +25,7 @@
   "accentColor": "#333333",
   "configurableTabs": [
     {
-      "configurationUrl": "https://gscales.github.io/TeamsAvailability/app/config.html",
+      "configurationUrl": "https://packman83.github.io/TeamsAvailability/app/config.html",
       "canUpdateConfiguration": true,
       "scopes": [ "team" ]
     }
