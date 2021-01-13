@@ -2,7 +2,7 @@
   "$schema": "https://statics.teams.microsoft.com/sdk/v1.2/manifest/MicrosoftTeams.schema.json", 
   "manifestVersion": "1.2",
   "version": "1.0.0",
-  "id": "9d13608f-e5b1-4c34-992f-3069dd18f299",
+  "id": "40f60a82-8644-4a1c-bf4c-033b9380308a",
   "packageName": "TeamsAvailability.io.github.packman83",
   "developer": {
     "name": "marcus.cadena@gmail.com",
