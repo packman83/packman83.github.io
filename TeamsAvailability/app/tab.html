@@ -97,8 +97,8 @@
         }
         var Authuser = function (upn) {
             let config = {
-                clientId: "e6ab1d9a-ddf8-4def-bb8b-c0f529595021",
-                redirectUri: window.location.origin + "/TeamsAvailability/app/silent-end.html",       // This should be in the list of redirect uris for the AAD app
+                clientId: "08401c36-6179-4bbe-9bcc-d34ff51d828f",
+                redirectUri: window.location.origin + "/TeamsOOFTab/app/silent-end.html",       // This should be in the list of redirect uris for the AAD app
                 cacheLocation: "localStorage",
                 navigateToLoginRequestUrl: false,
                 endpoints: {
@@ -131,12 +131,12 @@
                         $('#data').empty()
                         $('#data').append(html);
                     }
-                    else alert(window.location.origin + "/TeamsAvailability/app/silent-end.html");
+                    else
                         GetGroupMembers(idtoken);
                 });
-            } else {alert(window.location.origin + "/TeamsAvailability/app/silent-end.html2");
+            } else {
                 microsoftTeams.authentication.authenticate({
-                    url: window.location.origin + "/TeamsAvailability/app/auth.html",
+                    url: window.location.origin + "/TeamsOOFTab/app/auth.html",
                     width: 400,
                     height: 400,
                     successCallback: function (t) {
