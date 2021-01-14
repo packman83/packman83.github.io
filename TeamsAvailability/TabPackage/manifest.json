@@ -2,13 +2,13 @@
   "$schema": "https://statics.teams.microsoft.com/sdk/v1.2/manifest/MicrosoftTeams.schema.json", 
   "manifestVersion": "1.2",
   "version": "1.0.0",
-  "id": "40f60a82-8644-4a1c-bf4c-033b9380308a",
-  "packageName": "TeamsAvailability.io.github.packman83",
+  "id": "9d13608f-e5b1-4c34-992f-3069dd18f299",
+  "packageName": "TeamsOOFTab.io.github.gscales",
   "developer": {
-    "name": "marcus.cadena@gmail.com",
-    "websiteUrl": "https://packman83.github.io/TeamsAvailability/app/todo.html",
-    "privacyUrl": "https://packman83.github.io/TeamsAvailability/app/todo.html",
-    "termsOfUseUrl": "https://packman83.github.io/TeamsAvailability/app/todo.html"
+    "name": "gscales@msgdevelop.com",
+    "websiteUrl": "https://gscales.github.io/TeamsOOFTab/app/todo.html",
+    "privacyUrl": "https://gscales.github.io/TeamsOOFTab/app/todo.html",
+    "termsOfUseUrl": "https://gscales.github.io/TeamsOOFTab/app/todo.html"
   },
   "name": {
     "short": "In Out Board Tab",
@@ -25,7 +25,7 @@
   "accentColor": "#333333",
   "configurableTabs": [
     {
-      "configurationUrl": "https://packman83.github.io/TeamsAvailability/app/config.html",
+      "configurationUrl": "https://gscales.github.io/TeamsOOFTab/app/config.html",
       "canUpdateConfiguration": true,
       "scopes": [ "team" ]
     }
@@ -35,7 +35,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-     "packman83.github.io"
+     "gscales.github.io"
    
   ]
 }
