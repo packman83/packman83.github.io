@@ -3,12 +3,12 @@
   "manifestVersion": "1.2",
   "version": "1.0.0",
   "id": "9d13608f-e5b1-4c34-992f-3069dd18f299",
-  "packageName": "TeamsOOFTab.io.github.gscales",
+  "packageName": "TeamsOOFTab.io.github.packman83",
   "developer": {
-    "name": "gscales@msgdevelop.com",
-    "websiteUrl": "https://gscales.github.io/TeamsOOFTab/app/todo.html",
-    "privacyUrl": "https://gscales.github.io/TeamsOOFTab/app/todo.html",
-    "termsOfUseUrl": "https://gscales.github.io/TeamsOOFTab/app/todo.html"
+    "name": "packman83@msgdevelop.com",
+    "websiteUrl": "https://packman83.github.io/TeamsOOFTab/app/todo.html",
+    "privacyUrl": "https://packman83.github.io/TeamsOOFTab/app/todo.html",
+    "termsOfUseUrl": "https://packman83.github.io/TeamsOOFTab/app/todo.html"
   },
   "name": {
     "short": "In Out Board Tab",
@@ -25,7 +25,7 @@
   "accentColor": "#333333",
   "configurableTabs": [
     {
-      "configurationUrl": "https://gscales.github.io/TeamsOOFTab/app/config.html",
+      "configurationUrl": "https://packman83.github.io/TeamsOOFTab/app/config.html",
       "canUpdateConfiguration": true,
       "scopes": [ "team" ]
     }
@@ -35,7 +35,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-     "gscales.github.io"
+     "packman83.github.io"
    
   ]
 }
