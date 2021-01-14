@@ -1,7 +1,7 @@
 ﻿{
   "$schema": "https://statics.teams.microsoft.com/sdk/v1.2/manifest/MicrosoftTeams.schema.json", 
   "manifestVersion": "1.2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "9d13608f-e5b1-4c34-992f-3069dd18f299",
   "packageName": "TeamsOOFTab.io.github.packman83",
   "developer": {
